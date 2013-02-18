@@ -17,6 +17,7 @@ GEM
       rubyzip
     heroku-api (0.3.7)
       excon (~> 0.16.10)
+    json (1.7.5)
     launchy (2.2.0)
       addressable (~> 2.3)
     mime-types (1.21)
@@ -47,6 +48,7 @@ DEPENDENCIES
   foreman
   haml
   heroku
+  json
   pg
   sinatra
   sqlite3

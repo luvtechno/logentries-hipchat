@@ -5,6 +5,7 @@ gem 'sinatra'
 gem 'thin'
 gem 'pg'
 gem 'haml'
+gem 'json'
 
 group :development do
   gem "foreman"
