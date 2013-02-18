@@ -6,6 +6,7 @@ gem 'thin'
 gem 'pg'
 gem 'haml'
 gem 'json'
+gem 'hipchat'
 
 group :development do
   gem "foreman"

@@ -17,10 +17,18 @@ GEM
       rubyzip
     heroku-api (0.3.7)
       excon (~> 0.16.10)
+    hipchat (0.7.0)
+      httparty
+      httparty
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     json (1.7.5)
     launchy (2.2.0)
       addressable (~> 2.3)
     mime-types (1.21)
+    multi_json (1.6.1)
+    multi_xml (0.5.3)
     netrc (0.7.7)
     pg (0.14.1)
     rack (1.5.2)
@@ -48,6 +56,7 @@ DEPENDENCIES
   foreman
   haml
   heroku
+  hipchat
   json
   pg
   sinatra
