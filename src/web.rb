@@ -17,5 +17,5 @@ post '/alert' do
   puts payload
   message = "%s: %s" % [payload['alert']['name'], payload['event']['m']]
   puts message
-  client[room_id].send(username, message, color: 'red')
+  client[room_id].send(username, message, color: 'red', notify: 1)
 end
